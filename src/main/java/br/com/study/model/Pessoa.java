@@ -16,6 +16,11 @@ public class Pessoa implements Serializable {
     private String nome;
     private String endereco;
 
+    @Override
+    public String toString() {
+        return "Pessoa{" + "id=" + id + ", nome=" + nome + ", endereco=" + endereco + '}';
+    }
+
     public Pessoa() {
     }
 
